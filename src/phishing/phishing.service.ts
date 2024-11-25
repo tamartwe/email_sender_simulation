@@ -34,7 +34,7 @@ export class PhishingService {
       },
     });
 
-    const html = `<p>Please click <a href="http://localhost:3000/phishing/${attemptId}">here</a></p>`;
+    const html = `<p>Please click <a href="http://localhost:3002/phishing/${attemptId}">here</a></p>`;
     console.log(html);
 
     // Email content
